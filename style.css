@@ -1,0 +1,157 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background:   black;
+    font-family: "Brush Script MT",cursive;
+    font-size:24px;
+
+}
+.main-container{
+    width:95%;
+    margin:auto;
+}
+
+.container1{
+    margin-left: 5%;
+}
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.container3{
+    display:none; 
+   position: absolute;
+   top:26%;
+   left:40%;
+}
+textarea{
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+    outline:none;
+    border:none;
+    width:275px;
+    height:275px;
+    padding:40px 25px 25px 25px;
+
+}
+
+svg{
+    color:gray;
+}
+
+#check-icon{
+    position:absolute;
+    right:17%;
+    top:4%;
+}
+
+#x-icon{
+    position: absolute;
+    right:8%;
+    top:4%;
+}
+.header{
+    background:white;
+    
+}
+ 
+.container{
+    max-width:1152px;
+    padding:0 15px;
+     margin:0 auto;
+
+}
+
+.inp{
+    padding-top:1rem;
+    padding-left:15rem;
+}
+.header nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+    margin-right:1rem;
+   
+    transition:all .3s ease;
+}
+.header nav .left a:hover{
+   color:var(--primary);
+}
+.header nav{
+    padding:01rem 0;
+}
+
+.header nav .branding{
+    margin-right:3rem;
+}
+.header nav .branding a{
+    margin-right:1rem;
+}  
+
+section.contact .card-wrapper{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:3rem;
+    padding-top: 1rem;
+
+} 
+section.contact .card-wrapper .card{
+    text-align: center;
+}
+section.contact .card-wrapper .card img{
+    margin-bottom: 3rem;
+}
+
+section.contact .card-wrapper .card h1{
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+section.contact .card-wrapper .card h6{
+    font-size:1rem;
+    font-weight: 400;
+    color:var(--ternery);
+    margin-bottom: 4rem;
+}
+section.contact .input-wrap{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+     grid-gap:2rem;
+     margin-bottom: 2rem;
+}
+
+section.contact .input-wrap-2{
+    display:flex;
+    flex-direction: column;
+}
+section.contact  input{
+    padding:0.5rem;
+    border:1px solid var(--light);
+   
+}
+section.contact .input-wrap-2 input{
+    margin-bottom:2rem;
+
+    border:1px solid var(--light);
+    font-size:0.9rem;
+}
+section.contact .input-wrap-2 textarea{
+    padding:0.5rem;
+    border:1px solid var(--light);
+    font-size:0.9rem;
+}
+section.contact .input-wrap-2 textarea:focus{
+  outline:none;
+}
+section.contact input:focus{
+  outline:none;
+}
+section.contact  .btn-wrapper{
+  text-align: center;
+}
+::placeholder { 
+    font-family: "Brush Script MT",cursive;
+}
+ 
